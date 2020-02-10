@@ -26,7 +26,7 @@ namespace MdParserUnitTest
         {
             var lines = new List<string> {
                 "![photo1](link)",
-                "Рисунок 1"
+                "Р РёСЃСѓРЅРѕРє 1"
             };
 
             var file = new MarkdownFile()
@@ -50,7 +50,7 @@ namespace MdParserUnitTest
             var lines = new List<string> {
                 "![photo1](link)",
                 "",
-                "Рисунок 1"
+                "Р РёСЃСѓРЅРѕРє 1"
             };
 
             var file = new MarkdownFile()
@@ -149,7 +149,7 @@ namespace MdParserUnitTest
                 "| col 3 is      | right - aligned | $1600 |",
                 "| col 2 is      | centered |   $12 |",
                 "| zebra stripes | are neat |    $1 |",
-                "Таблица 1"
+                "РўР°Р±Р»РёС†Р° 1"
             };
 
             var file = new MarkdownFile()
@@ -177,7 +177,7 @@ namespace MdParserUnitTest
                 "| col 2 is      | centered |   $12 |",
                 "| zebra stripes | are neat |    $1 |",
                 " ",
-                "Таблица 1"
+                "РўР°Р±Р»РёС†Р° 1"
             };
 
             var file = new MarkdownFile()
